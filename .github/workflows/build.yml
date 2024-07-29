@@ -25,4 +25,4 @@ jobs:
           push: true
           sbom: true
           provenance: mode=max
-          tags: senacor3/secure-pipeline-poc:latest
+          tags: ghcr.io/lukas-havrisak-senacor/secure-pipeline-poc:latest
