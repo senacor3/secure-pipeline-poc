@@ -6,11 +6,12 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  attestations: write
+  packages: write
+
 jobs:
   build:
-    permissions:
-      attestations: write
-      packages: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
